@@ -1,0 +1,30 @@
+{
+  "name": "dva-example-user-dashboard",
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "test": "umi test",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.10",
+    "apollo-client": "^2.2.6",
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link-http": "^1.5.3",
+    "graphql": "^0.13.1",
+    "graphql-tag": "^2.8.0",
+    "umi": "^1.0.0-0",
+    "umi-plugin-dva": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-umi": "^0.1.2",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.6.1",
+    "husky": "^0.13.0"
+  }
+}
