@@ -1,4 +1,3 @@
-import request from '../../../utils/request';
 import { PAGE_SIZE } from '../../../constants';
 import { ApolloClient } from 'apollo-client';
 import { HttpLink } from 'apollo-link-http';

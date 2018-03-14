@@ -1,9 +1,8 @@
 import React from 'react';
 import { connect } from 'dva';
-import { Table, Pagination, Popconfirm, Button } from 'antd';
+import { Table, Popconfirm, Button } from 'antd';
 import { routerRedux } from 'dva/router';
 import styles from './list.css';
-import { PAGE_SIZE } from '../../../../constants';
 import MailModal from './MailModal';
 
 function Letters({ dispatch, list: dataSource, loading, total, page: current }) {
@@ -14,12 +13,6 @@ function Letters({ dispatch, list: dataSource, loading, total, page: current }) 
     });
   }
 
-  function pageChangeHandler(page) {
-    dispatch(routerRedux.push({
-      pathname: '/mail',
-      query: { page },
-    }));
-  }
 
   function editHandler(id, values) {
     dispatch({
