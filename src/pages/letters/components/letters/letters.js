@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
 import { Table, Popconfirm, Button } from 'antd';
-import { routerRedux } from 'dva/router';
 import styles from './list.css';
 import MailModal from './MailModal';
 
