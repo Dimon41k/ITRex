@@ -29,6 +29,7 @@
     "mongodb": "^3.0.4",
     "mongoose": "^5.0.9",
     "nodemailer": "^4.6.2",
+    "redis": "^2.8.0",
     "subscriptions-transport-ws": "^0.7.3"
   }
 }
